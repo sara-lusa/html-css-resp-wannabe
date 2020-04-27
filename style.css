@@ -74,21 +74,46 @@ img {
 
 /* MEDIA QUARY */
 @media screen and (max-width: 419px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .container.grey {
+    background-color: orange;
+    width: 100%;
+  }
+
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
-    margin: 10px 0;
+    margin: 20px 0;
     box-sizing: border-box;
-    padding: 0 25%;
+    padding: 0 15%;
+    font-size: 28px;
   }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     width: 100%;
-    margin: 10px 0;
+    margin: 20px 0;
     box-sizing: border-box;
-    padding: 0 25%;
+    padding: 0 15%;
+    font-size: 28px;
+  }
+
+  #lezioni .row img,
+  #steps .row img {
+    height: 150px;
+  }
+
+  #why .row img {
+    height: 100px;
   }
 
 }
